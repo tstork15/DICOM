@@ -162,7 +162,10 @@ def adjust_column_widths(data):
         width = treeview_font.measure(max_item) if len(max_item) > len(col) else treeview_font.measure(col)
 
         # Add padding to the width. Correcting for some unknown accuracy issue when measuring the font
-        width += 10
+        if col == "VR":
+            width += 15
+        else:
+            width += 10
 
         # Set the width of the column, and prevent it from stretching
         tree.column(col, width=width, stretch=tk.NO)
