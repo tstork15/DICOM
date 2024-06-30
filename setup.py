@@ -12,8 +12,7 @@ setup(
             "dicom_tag_viewer=dicomTagViewer:main",
         ],
     },
-    author="Your Name",
-    author_email="tstork15@gmail.com",
+    author="Taggart Stork",
     description="A utility for viewing DICOM file tags using a graphical interface.",
     url="https://github.com/tstork15/dicom-tag-viewer",
 )
