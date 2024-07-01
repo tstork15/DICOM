@@ -1,4 +1,5 @@
 # DICOM Tag Viewer
+![dicom-tag-viewer](https://github.com/tstork15/dicom-tag-viewer/assets/43816229/00ae098e-fb4a-4434-879f-c49de8df4800)
 
 ## Overview
 The DICOM Tag Viewer is a utility for viewing the tags of DICOM files. It provides a graphical user interface (GUI) using `tkinter` to select and display DICOM files, and it allows users to filter tags based on a search query. This tool is useful for medical imaging professionals and developers working with DICOM files.
@@ -23,11 +24,6 @@ The DICOM Tag Viewer is a utility for viewing the tags of DICOM files. It provid
 2. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
-    ```
-
-3. Alternatively, use the setup script:
-    ```bash
-    python setup.py install
     ```
 
 ## Usage
