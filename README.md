@@ -14,7 +14,6 @@ The DICOM Tag Viewer is a utility for viewing the tags of DICOM files. It provid
 
 ## Requirements
 - Python 3.x
-- tkinter
 
 ## Installation
 1. Clone the repository:
